@@ -14,28 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   themeName: Python para iniciantes
   questions:
-  - questionText: "Qual \xE9 a palavra-chave usada em Python para definir uma fun\xE7\xE3o?"
+  - questionText: Qual comando usamos para imprimir algo na tela?
     answers:
-    - function
-    - def
-    - fun
-    - public
+    - show()
+    - print()
+    - display()
+    - input()
     correctAnswerIndex: 1
-  - questionText: "Qual dos seguintes tipos de dados \xE9 usado para armazenar uma
-      cole\xE7\xE3o ordenada e imut\xE1vel de elementos em Python?"
+  - questionText: "Como criamos uma vari\xE1vel com o nome nome e valor \"Ana\"?\r\n"
     answers:
-    - list
-    - dict
-    - set
-    - tuple
-    correctAnswerIndex: 3
+    - var nome = "Ana"
+    - 'nome: "Ana"'
+    - nome = "Ana"
+    - nome == "Ana"
+    correctAnswerIndex: 2
   - questionText: "Como se escreve um coment\xE1rio de uma \xFAnica linha em Python?"
     answers:
     - "// Este \xE9 um coment\xE1rio"
     - "/* Este \xE9 um coment\xE1rio */"
     - "# Este \xE9 um coment\xE1rio"
     - "``Este \xE9 um coment\xE1rio"
-    correctAnswerIndex: 2
+    correctAnswerIndex: 0
   - questionText: "Qual m\xE9todo \xE9 usado para adicionar um item ao final de uma
       lista (list) em Python?  "
     answers:
@@ -44,19 +43,45 @@ MonoBehaviour:
     - .append()
     - .insert()
     correctAnswerIndex: 2
-  - questionText: "Qual \xE9 a fun\xE7\xE3o usada para obter o n\xFAmero de elementos
-      em uma lista ou string?"
+  - questionText: "Qual comando permite o usu\xE1rio digitar algo?"
     answers:
-    - size()
-    - length()
-    - count()
-    - len()
-    correctAnswerIndex: 3
-  - questionText: "Qual \xE9 a fun\xE7\xE3o usada para obter o n\xFAmero de elementos
-      em uma lista ou string?"
+    - ask()
+    - write()
+    - input()
+    - type()
+    correctAnswerIndex: 2
+  - questionText: "Qual s\xEDmbolo usamos para multiplicar?"
     answers:
-    - size()
-    - length()
-    - count()
-    - len()
-    correctAnswerIndex: 3
+    - '*'
+    - '**'
+    - /
+    - '%'
+    correctAnswerIndex: 0
+  - questionText: "Qual \xE9 o tipo de dado de 10?"
+    answers:
+    - string
+    - int
+    - text
+    - float
+    correctAnswerIndex: 1
+  - questionText: O que print("A" * 3) mostra?
+    answers:
+    - AAA
+    - A*3
+    - 3A
+    - A3
+    correctAnswerIndex: 0
+  - questionText: Para que serve o if?
+    answers:
+    - "Repetir um c\xF3digo"
+    - Digitar
+    - "Fazer decis\xF5es"
+    - "Criar vari\xE1veis"
+    correctAnswerIndex: 2
+  - questionText: 'O que acontece se esquecer os dois pontos : no if?'
+    answers:
+    - Nada
+    - O computador imprime  algo
+    - "O c\xF3digo d\xE1 erro"
+    - "O if n\xE3o existe mais"
+    correctAnswerIndex: 2
