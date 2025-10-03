@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    // Usaremos o mesmo padrão Singleton para que seja fácil de acessar
+   
     public static SceneLoader instance;
 
     private void Awake()
@@ -19,10 +19,10 @@ public class SceneLoader : MonoBehaviour
         }
     }
 
-    // Adicione esta função para carregar o menu assim que o jogo começar
+    
     private void Start()
     {
-        // Verifica se estamos na cena Initializer para não carregar o menu duas vezes
+       
         if (SceneManager.GetActiveScene().name == "Initializer")
         {
             LoadMainMenuScene();
