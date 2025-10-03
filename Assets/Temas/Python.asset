@@ -52,3 +52,11 @@ MonoBehaviour:
     - count()
     - len()
     correctAnswerIndex: 3
+  - questionText: "Qual \xE9 a fun\xE7\xE3o usada para obter o n\xFAmero de elementos
+      em uma lista ou string?"
+    answers:
+    - size()
+    - length()
+    - count()
+    - len()
+    correctAnswerIndex: 3
